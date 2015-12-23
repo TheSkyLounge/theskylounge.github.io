@@ -1,0 +1,36 @@
+h1, a, div {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 6px black;
+}
+h1 {
+  font-size: 40px;
+}
+a.l {
+  display: inline-block;
+  background: rgba(20,20,20,0.5);
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  transition: 0.5s;
+ font-size: 33px;
+  padding: 10px;
+}
+a.l:hover {
+  background: rgba(20,20,20,0.9);
+  color: #BBBBFF;
+}
+body {
+  background: url('http://www.awn.com/sites/default/files/styles/original/public/image/attached/1020858-worlds-03.jpg?itok=WqPU-6gn');
+  background-size: cover;
+  height: 100%;
+}
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0; margin: 0; padding: 0; }
+div {
+  position: relative;
+  top: 42%;
+  transform: translateY(-50%);
+}
